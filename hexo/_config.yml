@@ -56,6 +56,16 @@ prismjs:
   preprocess: true
   line_number: true
   tab_replace: ''
+valine:
+  enable: true
+  appid: ISuwoA8oOL1mnqT3lDvWpH6U-gzGzoHsz
+  appkey: DV0aJ4ikFpvT79Ee2EWfJaWG
+  notify: false # 
+  verify: false # Verification code
+  placeholder: just go go # comment box placeholder
+  avatar: mm # gravatar style
+  guest_info: nick,mail,link # custom comment header
+  pageSize: 10 # pagination size
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
