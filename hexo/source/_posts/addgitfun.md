@@ -10,8 +10,16 @@ title: github上线啦！
 ****
 @me by [QQ mail](mailto:1806551315@qq.com) for contact.
 ****
-       new Valine({
+<head>
+    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+</head>
+<body>
+    <div id="vcomments"></div>
+    <script>
+        new Valine({
             el: '#vcomments',
             appId: 'ISuwoA8oOL1mnqT3lDvWpH6U-gzGzoHsz',
             appKey: 'DV0aJ4ikFpvT79Ee2EWfJaWG'
         })
+    </script>
+</body>
