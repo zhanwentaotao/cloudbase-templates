@@ -10,12 +10,8 @@ title: github上线啦！
 ****
 @me by [QQ mail](mailto:1806551315@qq.com) for contact.
 <head>
-    ..
     <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
-    ...
 </head>
-<body>
-    ...
     <div id="vcomments"></div>
     <script>
         new Valine({
@@ -25,4 +21,3 @@ title: github上线啦！
         })
     </script>
 </body>
-配置
