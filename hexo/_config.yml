@@ -31,6 +31,22 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
 
+<% if (hexo.valine && post.comments) { %>
+    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+    <!-- 当然啦，这个可以在<head></head>中引入 -->
+    <div id="vcomments"></div>
+    <script>
+    new Valine({
+        el: '#vcomments' ,
+        appId: ISuwoA8oOL1mnqT3lDvWpH6U-gzGzoHsz,
+        appKey: DV0aJ4ikFpvT79Ee2EWfJaWG,
+        notify: false, 
+        verify: false, 
+        avatar: 'mp', 
+        placeholder: 'just go go' 
+    });
+    </script>
+<% } %>
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
@@ -60,8 +76,8 @@ valine:
   enable: true
   app_id: ISuwoA8oOL1mnqT3lDvWpH6U-gzGzoHsz
   app_key: DV0aJ4ikFpvT79Ee2EWfJaWG
-  notify: true
-  verify: true
+  notify: false, 
+  verify: false, 
   placeholder: just go go # comment box placeholder
   avatar: mm
   guest_info: nick,mail,link
