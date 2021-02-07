@@ -58,14 +58,14 @@ prismjs:
   tab_replace: ''
 valine:
   enable: true
-  appid: ISuwoA8oOL1mnqT3lDvWpH6U-gzGzoHsz
-  appkey: DV0aJ4ikFpvT79Ee2EWfJaWG
-  notify: false # 
-  verify: false # Verification code
+  app_id: ISuwoA8oOL1mnqT3lDvWpH6U-gzGzoHsz
+  app_key: DV0aJ4ikFpvT79Ee2EWfJaWG
+  notify: true
+  verify: true
   placeholder: just go go # comment box placeholder
-  avatar: mm # gravatar style
-  guest_info: nick,mail,link # custom comment header
-  pageSize: 10 # pagination size
+  avatar: mm
+  guest_info: nick,mail,link
+  pageSize: 10 
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
