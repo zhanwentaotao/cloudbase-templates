@@ -8,7 +8,7 @@ title: Hello World！
 
 This is My very first post. 
 
-我的名字叫占文涛，一个工科学生
+我的名字叫占文涛，工科学生
 
 *********
 @me by [QQ mail](mailto:1806551315@qq.com) for contact.
